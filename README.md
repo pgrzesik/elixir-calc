@@ -1,6 +1,6 @@
 # Calc
 
-**TODO: Add description**
+Simple calculator written in Elixir
 
 ## Installation
 
@@ -21,4 +21,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:calc]]
     end
     ```
-
