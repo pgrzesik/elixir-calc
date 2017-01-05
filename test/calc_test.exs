@@ -17,4 +17,8 @@ defmodule CalcTest do
   test "subtracting 1 from 2 results in 1" do
     assert Calc.sub(2, 1) == 1
   end
+
+  test "division by zero results in exception" do
+    assert_raise RuntimeError, "Division by zero!", fn -> Calc.div(2, 0) end
+  end
 end
