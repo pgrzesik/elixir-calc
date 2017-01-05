@@ -9,4 +9,12 @@ defmodule CalcTest do
   test "multiplying 2 by 2 results in 4" do
     assert Calc.mul(2, 2) == 4
   end
+
+  test "dividing 4 by 2 results in 2" do
+    assert Calc.div(4, 2) == 2
+  end
+
+  test "subtracting 1 from 2 results in 1" do
+    assert Calc.sub(2, 1) == 1
+  end
 end
