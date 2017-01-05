@@ -4,4 +4,8 @@ defmodule Calc do
     a + b
   end
 
+  def mul(a, b) do
+    a * b
+  end
+
 end
